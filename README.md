@@ -1,1 +1,0 @@
-# samyakthapa.github.io

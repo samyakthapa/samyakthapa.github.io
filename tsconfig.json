@@ -7,7 +7,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "baseUrl": "src",
     "paths": {
       "@lib/*": [

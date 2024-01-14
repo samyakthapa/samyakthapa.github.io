@@ -1,5 +1,5 @@
 ---
-import heroImage from '@assets/images/hero.png';
+import heroImage from '@assets/images/main_picture.jpg';
 import { Image } from '@astrojs/image/components';
 import Button from '@components/ui/Button.astro';
 ---
@@ -11,23 +11,22 @@ import Button from '@components/ui/Button.astro';
 	<div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
 		<div>
 			<h1 class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl">
-				Hi! My name is <span class="text-orange">Jane Doe</span> and I am a web developer based in New
-				York.
+				Hi! My name is <span class="text-orange">Samyak Thapa</span> and I'm a computer science student at the <span class="text-orange">University of Virginia</span>.
 			</h1>
 		</div>
 		<div class="mb-10">
 			<Button style={'primary'} size={'lg'} class={'flex'} name="learn more">Learn more</Button>
 		</div>
 	</div>
-	<div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
+	<!-- <div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
 		<Image
 			src={heroImage}
-			alt="Coding girl"
+			alt="headshot"
 			aspectRatio="4:4"
-			format="png"
+			format="jpg"
 			width={600}
 			height={600}
 			loading="eager"
 		/>
-	</div>
+	</div> -->
 </section>
